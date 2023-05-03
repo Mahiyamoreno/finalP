@@ -1,0 +1,171 @@
+{
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#navbar {
+  background-color: pink;
+  overflow: auto;
+  font-size:20px;
+ 
+
+}
+#navbar p {
+  margin:0; 
+  padding:1;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+a {
+  color: black;
+  font-family: Arial;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+a:hover {
+  background-color: #D80083;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+}
+
+li {
+  float: left;
+}
+
+li li {
+  clear: left;
+  width: 100%;
+}
+
+ul ul {
+  display: none;
+  position: absolute;
+}
+
+ul li:hover ul {
+  display: block;
+  
+}
+
+#location {
+   font-size: 70px;
+   text-align:center;
+   padding:100px;
+    width: 86.5vw;
+  height: 100vh;
+  background-image: url(pic.jpg);
+  background-size: auto;
+  background-attachment: fixed;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#wind{
+    font-size: 70px;
+   text-align:center;
+   color:white;
+   padding:100px;
+  width: 86.5vw;
+  height: 100vh;
+  background-image: url(wind.jpg);
+  background-size: auto;
+  background-attachment: fixed;
+  background-position: center center;
+  background-attachment: fixed;
+  overflow:auto;
+ 
+}
+
+#clouds{
+    font-size: 70px;
+   text-align:center;
+   padding:100px;
+}
+
+#humidity{
+    font-size: 30px;
+   text-align:center;
+   padding:100px;
+}
+
+#forecast{
+    font-size: 30px;
+   text-align:center;
+   padding:30px;
+}
+
+
+#uv{
+    font-size: 70px;
+   text-align:center;
+   padding:100px;
+}
+#fore span {
+    font-size: 30px;
+   text-align:center;
+}
+
+#placeholder {
+    font-size: 30px;
+   text-align:center;
+   padding:10px;
+}
+
+#placetwo {
+    font-size: 30px;
+   text-align:center;
+   padding:10px;
+}
+#placethree {
+    font-size: 30px;
+   text-align:center;
+   padding:10px;
+}
+#lastup
+{
+    font-size: 30px;
+   text-align:center;
+   padding:10px;
+}
+
+h1 {
+    font-size: 30px;
+   text-align:center;
+   padding:0px;
+}
+img #pic{
+    width:auto; 
+    height: auto;
+  }
+div #pic {
+  color: white;
+  text-align:center;
+  width: 100%;
+  height: 100vh; 
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(https://unsplash.com/photos/gJILnne_HFg);
+}
+
+ #footer p {
+     font-size:8px;
+     font-family: arial;
+ }
+
+
+

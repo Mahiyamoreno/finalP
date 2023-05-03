@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<!-- meta tags and title -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>TP10: Weather App</title>
+
+		<!-- external and on-page CSS goes here -->
+		<link rel="stylesheet" href="styles.css" media="all">
+		<style>
+			/* on-page CSS, if any, goes here -- otherwise delete this section */
+		</style>
+
+		<!-- external and on-page JavaScript goes here -->
+		<script type="text/javascript" src="scripts.js" defer></script>
+		<script>
+			// on-page JavaScript, if any, goes here -- otherwise delete this section
+			 var current = new Date();
+    var day_night=current.getHour();
+    
+    if (day_night<=16)
+        document.querySelector("<img src='pic.jpg'>");
+    else
+        document.querySelector("<img src='dark.jpg'>");
+		</script>
+
+	</head>
+<body>
+
+
+<div id="navbar"><p>Weather App</p>
+  
+  <ul>
+    <li><a href='temps.html'> Temperature</a></li>
+    <li><a href='forecast.html'>3 Day Forecast</a></li>
+    <li><a href='hum.html'>Humidity</a></li>
+    <li><a href="wind.html">Wind</a></li>
+    <li><a href='clouds.html'> Clouds</a></li>
+    <li><a href='uv.html'>UV Rating</a></li>
+    </ul>
+    </div>
+		 
+		
+	<div id="location">
+	    <div id="time"><span></span></div>
+	    <div id="tempF"><span></span> Fahrenheit</div>
+		<div id="tempC"><span></span> Celsius</div>
+		<div id="feelslike"><span></span> F Feels Like </div>
+		
+			</div>
+			
+			<div id="footer">
+			    <p>Photo By <a herf="https://unsplash.com/photos/gJILnne_HFg">Unsplashed</a> </p>
+			</div>
+			
+			
+			
+			
+			
+			
+	</body>
+	</html>
